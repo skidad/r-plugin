@@ -49,7 +49,7 @@ public class R extends CommandInterpreter {
 
 	@Override
 	public String[] buildCommandLine(FilePath script) {
-		return new String[]{"Rscript", script.getRemote()};
+	    return new String[] {"Rscript","--default-packages=", script.getRemote()};
 	}
 
 	@Override

@@ -4,4 +4,7 @@
 target
 test-output
 work
+*#
+.#*
+~*
 
